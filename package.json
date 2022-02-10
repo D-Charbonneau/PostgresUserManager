@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node -r dotenv/config server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.2",
+        "pg": "^8.7.3",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0"
+    }
+}
